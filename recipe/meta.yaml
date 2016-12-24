@@ -1,6 +1,6 @@
 package:
   name: conda-forge-build-setup
-  version: 4.2.0
+  version: 4.2.1
 
 build:
   number: 0

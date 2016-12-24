@@ -9,6 +9,7 @@ conda config --set show_channel_urls true
 conda config --set add_pip_as_python_dependency false
 
 conda update -n root --yes --quiet conda conda-env conda-build
+conda update -n root --yes --quiet python
 conda install -n root --yes --quiet jinja2 conda-build anaconda-client
 
 :: Needed for building extensions in python2.7 x64 with cmake.
